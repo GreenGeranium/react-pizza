@@ -18,6 +18,7 @@ function PizzaBlock(props) {
                 onClick={() => {
                   setActiveType(typeId);
                 }}
+                key={typeId}
               >
                 {pizzasTypes[typeId]}
               </li>
@@ -32,6 +33,7 @@ function PizzaBlock(props) {
                 onClick={() => {
                   setActiveSize(i);
                 }}
+                key={size}
               >
                 {size} см.
               </li>

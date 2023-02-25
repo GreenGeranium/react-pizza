@@ -27,6 +27,7 @@ function Categories() {
                 onClickCategory(i);
               }}
               className={activeIndex === i ? "active" : ""}
+              key={i}
             >
               {value}
             </li>
